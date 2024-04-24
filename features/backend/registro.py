@@ -11,13 +11,6 @@ import base64
 
 
 config = {
-    "apiKey": "AIzaSyDZ3HF7aQ5GchQAy9wu6Jn3293e-UpGi3M",
-    "authDomain": "seguridadinfo-308ce.firebaseapp.com",
-    "databaseURL": "https://seguridadinfo-308ce-default-rtdb.firebaseio.com",
-    "projectId": "seguridadinfo-308ce",
-    "storageBucket": "seguridadinfo-308ce.appspot.com",
-    "messagingSenderId": "388981953527",
-    "appId": "1:388981953527:web:acf31898d798614a7814f2"
 }
 
 app = Blueprint('registro', __name__, url_prefix='/')
