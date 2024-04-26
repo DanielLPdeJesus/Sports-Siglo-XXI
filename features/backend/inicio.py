@@ -21,7 +21,7 @@ def iniciar_sesion():
             # Verifica si el correo electrónico ha sido verificado
             if auth.get_account_info(user['idToken'])['users'][0]['emailVerified']:
                 # Permitir acceso solo si el correo está verificado
-                if email == 'daniel@gmail.com' and password == '123456':
+                if email == 'correo@gmail.com' and password == '123456':
                     session['usuario2'] = email
                     return redirect('/generar_llave')
                 else:
